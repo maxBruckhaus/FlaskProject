@@ -6,6 +6,6 @@ provider "aws" {
 }
 
 # Define the ECR repository
-#resource "aws_ecr_repository" "my_repository" {
-#  name = var.ecr_repository
-#}
+resource "aws_ecr_repository" "my_repository" {
+  name = var.ecr_repository
+}
